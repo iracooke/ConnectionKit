@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 44;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -11,11 +11,9 @@
 			isa = PBXAggregateTarget;
 			buildConfigurationList = 7983E7F00B0C4F6F00F5078E /* Build configuration list for PBXAggregateTarget "Build All" */;
 			buildPhases = (
-				7983E7EE0B0C4F5100F5078E /* ShellScript */,
 			);
 			dependencies = (
 				7983E7EA0B0C4F4200F5078E /* PBXTargetDependency */,
-				7983E7EC0B0C4F4600F5078E /* PBXTargetDependency */,
 			);
 			name = "Build All";
 			productName = "Build All";
@@ -79,9 +77,6 @@
 		795AFF190B1157D3006905FA /* CKHostCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 795AFF170B1157D3006905FA /* CKHostCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		795AFF1A0B1157D3006905FA /* CKHostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 795AFF180B1157D3006905FA /* CKHostCell.m */; };
 		795E44DF0AC5F748007912A2 /* NSString+Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = 792BC8B10ABF6B2E0022415A /* NSString+Connection.m */; };
-		795FF5020B0C018100EA9292 /* DropletMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 795FF5010B0C018100EA9292 /* DropletMain.m */; };
-		795FF5070B0C048700EA9292 /* Droplet.nib in Resources */ = {isa = PBXBuildFile; fileRef = 795FF5050B0C048700EA9292 /* Droplet.nib */; };
-		795FF50E0B0C05F400EA9292 /* DropletController.m in Sources */ = {isa = PBXBuildFile; fileRef = 795FF50C0B0C05F400EA9292 /* DropletController.m */; };
 		796DB30109F8BB1D0065897B /* SecurityInterface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 796DB2F609F8BB1D0065897B /* SecurityInterface.framework */; };
 		797782790B4745DD008DBA01 /* NSArray+Connection.h in Headers */ = {isa = PBXBuildFile; fileRef = 797782770B4745DD008DBA01 /* NSArray+Connection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7977827A0B4745DD008DBA01 /* NSArray+Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = 797782780B4745DD008DBA01 /* NSArray+Connection.m */; };
@@ -94,15 +89,7 @@
 		798313CA0B0D67E000F5078E /* CKTransferProgressCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 798313C80B0D67E000F5078E /* CKTransferProgressCell.m */; };
 		7983DF8E0B0C0FAC00F5078E /* CKTransferRecord.h in Headers */ = {isa = PBXBuildFile; fileRef = 7983DF8C0B0C0FAC00F5078E /* CKTransferRecord.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7983DF8F0B0C0FAC00F5078E /* CKTransferRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 7983DF8D0B0C0FAC00F5078E /* CKTransferRecord.m */; };
-		7983E0950B0C1A8500F5078E /* DropletOutlineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7983E0940B0C1A8500F5078E /* DropletOutlineView.m */; };
-		7983E2310B0C244700F5078E /* Connection.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CFD12609F702BE00172CDD /* Connection.framework */; };
-		7983E24B0B0C245100F5078E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		7983E6CC0B0C4D8800F5078E /* DropletIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 7983E6CB0B0C4D8800F5078E /* DropletIcon.icns */; };
-		7983E6DE0B0C4E0000F5078E /* DropletLauncher.m in Sources */ = {isa = PBXBuildFile; fileRef = 7983E6730B0C41E300F5078E /* DropletLauncher.m */; };
-		7983E7000B0C4E2800F5078E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
-		7983E7050B0C4E4E00F5078E /* DropletLauncher in Resources */ = {isa = PBXBuildFile; fileRef = 7983E6D20B0C4DF000F5078E /* DropletLauncher */; };
-		7983EDF90B0C802C00F5078E /* DropletIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 7983E6CB0B0C4D8800F5078E /* DropletIcon.icns */; };
-		7983F3EE0B0D1B8B00F5078E /* DropletPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7983F3ED0B0D1B8B00F5078E /* DropletPanel.m */; };
 		79906BAF0B1175A800FE9681 /* host.png in Resources */ = {isa = PBXBuildFile; fileRef = 79906BAD0B1175A800FE9681 /* host.png */; };
 		79906BB00B1175A800FE9681 /* bonjour.png in Resources */ = {isa = PBXBuildFile; fileRef = 79906BAE0B1175A800FE9681 /* bonjour.png */; };
 		799174970C83962D00EFFC79 /* CKDirectoryTree.nib in Resources */ = {isa = PBXBuildFile; fileRef = 799174950C83962D00EFFC79 /* CKDirectoryTree.nib */; };
@@ -207,33 +194,12 @@
 			remoteGlobalIDString = 79CFD12509F702BE00172CDD;
 			remoteInfo = Framework;
 		};
-		795FF4FB0B0C014B00EA9292 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 79CFD12509F702BE00172CDD;
-			remoteInfo = Framework;
-		};
-		7983E7030B0C4E3300F5078E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7983E6D10B0C4DF000F5078E;
-			remoteInfo = DropletLauncher;
-		};
 		7983E7E90B0C4F4200F5078E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 79CFD12509F702BE00172CDD;
 			remoteInfo = Framework;
-		};
-		7983E7EB0B0C4F4600F5078E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 795FF4F00B0C013200EA9292;
-			remoteInfo = DropletHelper;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -313,7 +279,6 @@
 		795AFF180B1157D3006905FA /* CKHostCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKHostCell.m; sourceTree = "<group>"; };
 		795FF1B40B0A821600EA9292 /* CKBookmarkStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKBookmarkStorage.h; sourceTree = "<group>"; };
 		795FF1B50B0A821600EA9292 /* CKBookmarkStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKBookmarkStorage.m; sourceTree = "<group>"; };
-		795FF4F10B0C013200EA9292 /* DropletHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropletHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		795FF4F30B0C013200EA9292 /* DropletHelper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DropletHelper-Info.plist"; sourceTree = "<group>"; };
 		795FF5010B0C018100EA9292 /* DropletMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropletMain.m; sourceTree = "<group>"; };
 		795FF5060B0C048700EA9292 /* en */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = en; path = en.lproj/Droplet.nib; sourceTree = "<group>"; };
@@ -347,7 +312,6 @@
 		7983E0940B0C1A8500F5078E /* DropletOutlineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropletOutlineView.m; sourceTree = "<group>"; };
 		7983E6730B0C41E300F5078E /* DropletLauncher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropletLauncher.m; sourceTree = "<group>"; };
 		7983E6CB0B0C4D8800F5078E /* DropletIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = DropletIcon.icns; sourceTree = "<group>"; };
-		7983E6D20B0C4DF000F5078E /* DropletLauncher */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DropletLauncher; sourceTree = BUILT_PRODUCTS_DIR; };
 		7983F3EC0B0D1B8B00F5078E /* DropletPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropletPanel.h; sourceTree = "<group>"; };
 		7983F3ED0B0D1B8B00F5078E /* DropletPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropletPanel.m; sourceTree = "<group>"; };
 		79906BAD0B1175A800FE9681 /* host.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = host.png; sourceTree = "<group>"; };
@@ -540,23 +504,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		795FF4EF0B0C013200EA9292 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7983E24B0B0C245100F5078E /* Cocoa.framework in Frameworks */,
-				7983E2310B0C244700F5078E /* Connection.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7983E6D00B0C4DF000F5078E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7983E7000B0C4E2800F5078E /* Cocoa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		79CFD12409F702BE00172CDD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -637,8 +584,6 @@
 			children = (
 				79CFD12609F702BE00172CDD /* Connection.framework */,
 				09D6601D09FD37990000BA00 /* UnitTest.octest */,
-				795FF4F10B0C013200EA9292 /* DropletHelper.app */,
-				7983E6D20B0C4DF000F5078E /* DropletLauncher */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1124,41 +1069,6 @@
 			productReference = 09D6601D09FD37990000BA00 /* UnitTest.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
-		795FF4F00B0C013200EA9292 /* DropletHelper */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 795FF4F70B0C013300EA9292 /* Build configuration list for PBXNativeTarget "DropletHelper" */;
-			buildPhases = (
-				795FF4ED0B0C013200EA9292 /* Resources */,
-				795FF4EE0B0C013200EA9292 /* Sources */,
-				795FF4EF0B0C013200EA9292 /* Frameworks */,
-				7983ED650B0C749800F5078E /* Reset Install Path */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				795FF4FC0B0C014B00EA9292 /* PBXTargetDependency */,
-			);
-			name = DropletHelper;
-			productName = DropletHelper;
-			productReference = 795FF4F10B0C013200EA9292 /* DropletHelper.app */;
-			productType = "com.apple.product-type.application";
-		};
-		7983E6D10B0C4DF000F5078E /* DropletLauncher */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7983E6E20B0C4E1E00F5078E /* Build configuration list for PBXNativeTarget "DropletLauncher" */;
-			buildPhases = (
-				7983E6CF0B0C4DF000F5078E /* Sources */,
-				7983E6D00B0C4DF000F5078E /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = DropletLauncher;
-			productName = DropletLauncher;
-			productReference = 7983E6D20B0C4DF000F5078E /* DropletLauncher */;
-			productType = "com.apple.product-type.tool";
-		};
 		79CFD12509F702BE00172CDD /* Framework */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79CFD12809F702BF00172CDD /* Build configuration list for PBXNativeTarget "Framework" */;
@@ -1173,7 +1083,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				7983E7040B0C4E3300F5078E /* PBXTargetDependency */,
 			);
 			name = Framework;
 			productName = Framework;
@@ -1186,7 +1095,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Connection" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -1209,8 +1118,6 @@
 				7983E7E80B0C4F2200F5078E /* Build All */,
 				79CFD12509F702BE00172CDD /* Framework */,
 				09D6601C09FD37990000BA00 /* UnitTest */,
-				795FF4F00B0C013200EA9292 /* DropletHelper */,
-				7983E6D10B0C4DF000F5078E /* DropletLauncher */,
 			);
 		};
 /* End PBXProject section */
@@ -1223,20 +1130,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		795FF4ED0B0C013200EA9292 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7983EDF90B0C802C00F5078E /* DropletIcon.icns in Resources */,
-				795FF5070B0C048700EA9292 /* Droplet.nib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		79CFD12209F702BE00172CDD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7983E7050B0C4E4E00F5078E /* DropletLauncher in Resources */,
 				79CFD8C809F7069100172CDD /* ConnectionOpenPanel.nib in Resources */,
 				79CFD8CC09F706C700172CDD /* KTLog.nib in Resources */,
 				797CC8C709F861770063FF9B /* Localizable.strings in Resources */,
@@ -1314,33 +1211,6 @@
 			shellScript = "echo \"Generating Localizable.strings ...\"\n\ncd \"${SRCROOT}\"\ngenstrings -littleEndian -q -u -s LocalizedStringInConnectionKitBundle -o en.lproj *.m\n";
 			showEnvVarsInLog = 0;
 		};
-		7983E7EE0B0C4F5100F5078E /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "#!/bin/sh\n\n# Copy the DropletHelper application into the Resources folder of the framework\n\nLAUNCHER_PATH=$CONFIGURATION_BUILD_DIR/DropletHelper.app\nCK_FRAMEWORK_PATH=$CONFIGURATION_BUILD_DIR/Connection.framework/Versions/A/Resources\n\nrm -rf $CK_FRAMEWORK_PATH/DropletHelper.app\n\nmv $LAUNCHER_PATH $CK_FRAMEWORK_PATH\n";
-		};
-		7983ED650B0C749800F5078E /* Reset Install Path */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Reset Install Path";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "/Developer/usr/bin/install_name_tool -change @executable_path/../Frameworks/Connection.framework/Versions/A/Connection @executable_path/../../../../Connection $CONFIGURATION_BUILD_DIR/DropletHelper.app/Contents/MacOS/DropletHelper";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1350,25 +1220,6 @@
 			files = (
 				09B5F7660A01D1BF001F8961 /* AbstractConnectionTest.m in Sources */,
 				09EB32BA0A15B801008A5C3D /* FTPConnectionTest.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		795FF4EE0B0C013200EA9292 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				795FF5020B0C018100EA9292 /* DropletMain.m in Sources */,
-				795FF50E0B0C05F400EA9292 /* DropletController.m in Sources */,
-				7983E0950B0C1A8500F5078E /* DropletOutlineView.m in Sources */,
-				7983F3EE0B0D1B8B00F5078E /* DropletPanel.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7983E6CF0B0C4DF000F5078E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7983E6DE0B0C4E0000F5078E /* DropletLauncher.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1453,25 +1304,10 @@
 			target = 79CFD12509F702BE00172CDD /* Framework */;
 			targetProxy = 09D6604609FD37DD0000BA00 /* PBXContainerItemProxy */;
 		};
-		795FF4FC0B0C014B00EA9292 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 79CFD12509F702BE00172CDD /* Framework */;
-			targetProxy = 795FF4FB0B0C014B00EA9292 /* PBXContainerItemProxy */;
-		};
-		7983E7040B0C4E3300F5078E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7983E6D10B0C4DF000F5078E /* DropletLauncher */;
-			targetProxy = 7983E7030B0C4E3300F5078E /* PBXContainerItemProxy */;
-		};
 		7983E7EA0B0C4F4200F5078E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 79CFD12509F702BE00172CDD /* Framework */;
 			targetProxy = 7983E7E90B0C4F4200F5078E /* PBXContainerItemProxy */;
-		};
-		7983E7EC0B0C4F4600F5078E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 795FF4F00B0C013200EA9292 /* DropletHelper */;
-			targetProxy = 7983E7EB0B0C4F4600F5078E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1659,102 +1495,6 @@
 			};
 			name = Release;
 		};
-		795FF4F80B0C013300EA9292 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "DropletHelper-Info.plist";
-				INSTALL_PATH = "$(HOME)/Applications";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = DropletHelper;
-				WRAPPER_EXTENSION = app;
-				ZERO_LINK = NO;
-			};
-			name = Debug;
-		};
-		795FF4F90B0C013300EA9292 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "DropletHelper-Info.plist";
-				INSTALL_PATH = "$(HOME)/Applications";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = DropletHelper;
-				WRAPPER_EXTENSION = app;
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
-		7983E6E30B0C4E1E00F5078E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INSTALL_PATH = "$(HOME)/bin";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = DropletLauncher;
-				ZERO_LINK = YES;
-			};
-			name = Debug;
-		};
-		7983E6E40B0C4E1E00F5078E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INSTALL_PATH = "$(HOME)/bin";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = DropletLauncher;
-				ZERO_LINK = NO;
-			};
-			name = Release;
-		};
 		7983E7F10B0C4F6F00F5078E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1776,28 +1516,6 @@
 				ZERO_LINK = NO;
 			};
 			name = Release;
-		};
-		79A8578D0B9267CA00D9C844 /* Plugin */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INSTALL_PATH = "$(HOME)/bin";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = DropletLauncher;
-				ZERO_LINK = NO;
-			};
-			name = Plugin;
 		};
 		79A8578E0B9267CA00D9C844 /* Plugin */ = {
 			isa = XCBuildConfiguration;
@@ -1833,30 +1551,6 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = Connection;
-				ZERO_LINK = NO;
-			};
-			name = Plugin;
-		};
-		79A8578F0B9267CA00D9C844 /* Plugin */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_MODEL_TUNING = G5;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "DropletHelper-Info.plist";
-				INSTALL_PATH = "$(HOME)/Applications";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = DropletHelper;
-				WRAPPER_EXTENSION = app;
 				ZERO_LINK = NO;
 			};
 			name = Plugin;
@@ -2039,26 +1733,6 @@
 				09D6602709FD379A0000BA00 /* Debug */,
 				09D6602809FD379A0000BA00 /* Release */,
 				79A857920B9267CA00D9C844 /* Plugin */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		795FF4F70B0C013300EA9292 /* Build configuration list for PBXNativeTarget "DropletHelper" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				795FF4F80B0C013300EA9292 /* Debug */,
-				795FF4F90B0C013300EA9292 /* Release */,
-				79A8578F0B9267CA00D9C844 /* Plugin */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7983E6E20B0C4E1E00F5078E /* Build configuration list for PBXNativeTarget "DropletLauncher" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7983E6E30B0C4E1E00F5078E /* Debug */,
-				7983E6E40B0C4E1E00F5078E /* Release */,
-				79A8578D0B9267CA00D9C844 /* Plugin */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
