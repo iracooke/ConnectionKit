@@ -32,6 +32,16 @@
 		27AE2E280ED2FD4800AB81E7 /* argcargv.h in Headers */ = {isa = PBXBuildFile; fileRef = D3598B780CF3D40800C61A38 /* argcargv.h */; };
 		27AE68390EE98A8400409D80 /* CKConnectionRegistry.h in Headers */ = {isa = PBXBuildFile; fileRef = 27AE68370EE98A8400409D80 /* CKConnectionRegistry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27AE683A0EE98A8400409D80 /* CKConnectionRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AE68380EE98A8400409D80 /* CKConnectionRegistry.m */; };
+		27C5D6C71448DFF00014C230 /* CK2SFTPFileHandle.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C5D6C11448DFF00014C230 /* CK2SFTPFileHandle.h */; };
+		27C5D6C81448DFF00014C230 /* CK2SFTPFileHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C5D6C21448DFF00014C230 /* CK2SFTPFileHandle.m */; };
+		27C5D6C91448DFF00014C230 /* CK2SFTPSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C5D6C31448DFF00014C230 /* CK2SFTPSession.h */; };
+		27C5D6CA1448DFF00014C230 /* CK2SFTPSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C5D6C41448DFF00014C230 /* CK2SFTPSession.m */; };
+		27C5D6CB1448DFF00014C230 /* CK2SSHCredential.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C5D6C51448DFF00014C230 /* CK2SSHCredential.h */; };
+		27C5D6CC1448DFF00014C230 /* CK2SSHCredential.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C5D6C61448DFF00014C230 /* CK2SSHCredential.m */; };
+		27C5D6D01448E0080014C230 /* libssh2_publickey.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C5D6CD1448E0080014C230 /* libssh2_publickey.h */; };
+		27C5D6D11448E0080014C230 /* libssh2_sftp.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C5D6CE1448E0080014C230 /* libssh2_sftp.h */; };
+		27C5D6D21448E0080014C230 /* libssh2.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C5D6CF1448E0080014C230 /* libssh2.h */; };
+		27C5E7DB1448E1920014C230 /* libssh2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 27C5E7DA1448E1920014C230 /* libssh2.dylib */; };
 		27C604760F1FA20900B58822 /* CKConnectionClientProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C604750F1FA20900B58822 /* CKConnectionClientProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		27C604850F1FA82800B58822 /* CKConnectionClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 27C604830F1FA82800B58822 /* CKConnectionClient.m */; };
 		27C98D5D0F1C1E5B0079A84F /* CKConnectionRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C98D5B0F1C1E5B0079A84F /* CKConnectionRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -250,6 +260,16 @@
 		278B06070EFA7EAB0093B23D /* CKURLProtectionSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKURLProtectionSpace.m; sourceTree = "<group>"; };
 		27AE68370EE98A8400409D80 /* CKConnectionRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKConnectionRegistry.h; sourceTree = "<group>"; };
 		27AE68380EE98A8400409D80 /* CKConnectionRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKConnectionRegistry.m; sourceTree = "<group>"; };
+		27C5D6C11448DFF00014C230 /* CK2SFTPFileHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CK2SFTPFileHandle.h; sourceTree = "<group>"; };
+		27C5D6C21448DFF00014C230 /* CK2SFTPFileHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CK2SFTPFileHandle.m; sourceTree = "<group>"; };
+		27C5D6C31448DFF00014C230 /* CK2SFTPSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CK2SFTPSession.h; sourceTree = "<group>"; };
+		27C5D6C41448DFF00014C230 /* CK2SFTPSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CK2SFTPSession.m; sourceTree = "<group>"; };
+		27C5D6C51448DFF00014C230 /* CK2SSHCredential.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CK2SSHCredential.h; sourceTree = "<group>"; };
+		27C5D6C61448DFF00014C230 /* CK2SSHCredential.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CK2SSHCredential.m; sourceTree = "<group>"; };
+		27C5D6CD1448E0080014C230 /* libssh2_publickey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libssh2_publickey.h; path = libssh2/include/libssh2_publickey.h; sourceTree = "<group>"; };
+		27C5D6CE1448E0080014C230 /* libssh2_sftp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libssh2_sftp.h; path = libssh2/include/libssh2_sftp.h; sourceTree = "<group>"; };
+		27C5D6CF1448E0080014C230 /* libssh2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libssh2.h; path = libssh2/include/libssh2.h; sourceTree = "<group>"; };
+		27C5E7DA1448E1920014C230 /* libssh2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libssh2.dylib; sourceTree = "<group>"; };
 		27C604750F1FA20900B58822 /* CKConnectionClientProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKConnectionClientProtocol.h; sourceTree = "<group>"; };
 		27C604820F1FA82800B58822 /* CKConnectionClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKConnectionClient.h; sourceTree = "<group>"; };
 		27C604830F1FA82800B58822 /* CKConnectionClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKConnectionClient.m; sourceTree = "<group>"; };
@@ -568,6 +588,7 @@
 				79F9533D09FDC3A80041E345 /* ApplicationServices.framework in Frameworks */,
 				D3053AAD0DE60D6B008646CE /* libicucore.A.dylib in Frameworks */,
 				CEB6FA0B13A696B200C8059F /* libsasl2.dylib in Frameworks */,
+				27C5E7DB1448E1920014C230 /* libssh2.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -618,6 +639,7 @@
 				79FB807109F74185006E7D11 /* Carbon.framework */,
 				79CFD93609F7084000172CDD /* Security.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				27C5E7DA1448E1920014C230 /* libssh2.dylib */,
 			);
 			name = "Linked Frameworks";
 			sourceTree = "<group>";
@@ -1009,6 +1031,15 @@
 		D3598B580CF3D3DF00C61A38 /* SFTP */ = {
 			isa = PBXGroup;
 			children = (
+				27C5D6CD1448E0080014C230 /* libssh2_publickey.h */,
+				27C5D6CE1448E0080014C230 /* libssh2_sftp.h */,
+				27C5D6CF1448E0080014C230 /* libssh2.h */,
+				27C5D6C11448DFF00014C230 /* CK2SFTPFileHandle.h */,
+				27C5D6C21448DFF00014C230 /* CK2SFTPFileHandle.m */,
+				27C5D6C31448DFF00014C230 /* CK2SFTPSession.h */,
+				27C5D6C41448DFF00014C230 /* CK2SFTPSession.m */,
+				27C5D6C51448DFF00014C230 /* CK2SSHCredential.h */,
+				27C5D6C61448DFF00014C230 /* CK2SSHCredential.m */,
 				D3A2B7660D909F40002F02EF /* CKSSHPassphrase.m */,
 				D3A2B7670D909F40002F02EF /* CKSSHPassphrase.h */,
 				79CFD84309F7048400172CDD /* CKSFTPConnection.h */,
@@ -1099,6 +1130,12 @@
 				278B06080EFA7EAB0093B23D /* CKURLProtectionSpace.h in Headers */,
 				27C98D5D0F1C1E5B0079A84F /* CKConnectionRequest.h in Headers */,
 				27C604760F1FA20900B58822 /* CKConnectionClientProtocol.h in Headers */,
+				27C5D6C71448DFF00014C230 /* CK2SFTPFileHandle.h in Headers */,
+				27C5D6C91448DFF00014C230 /* CK2SFTPSession.h in Headers */,
+				27C5D6CB1448DFF00014C230 /* CK2SSHCredential.h in Headers */,
+				27C5D6D01448E0080014C230 /* libssh2_publickey.h in Headers */,
+				27C5D6D11448E0080014C230 /* libssh2_sftp.h in Headers */,
+				27C5D6D21448E0080014C230 /* libssh2.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1442,6 +1479,9 @@
 				278B06090EFA7EAB0093B23D /* CKURLProtectionSpace.m in Sources */,
 				27C98D5E0F1C1E5B0079A84F /* CKConnectionRequest.m in Sources */,
 				27C604850F1FA82800B58822 /* CKConnectionClient.m in Sources */,
+				27C5D6C81448DFF00014C230 /* CK2SFTPFileHandle.m in Sources */,
+				27C5D6CA1448DFF00014C230 /* CK2SFTPSession.m in Sources */,
+				27C5D6CC1448DFF00014C230 /* CK2SSHCredential.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1819,6 +1859,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"\"$(SRCROOT)\"",
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
 				OTHER_CFLAGS = "-falign-loops=16";
@@ -1938,6 +1979,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"\"$(SRCROOT)\"",
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
 				OTHER_CFLAGS = "-falign-loops=16";
@@ -1976,6 +2018,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"\"$(SRCROOT)\"",
 				);
 				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
 				OTHER_CFLAGS = "-falign-loops=16";
